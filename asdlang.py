@@ -252,7 +252,6 @@ try:
 				elif cars[i+1]!="yox":
 					ifelseon = True
 		i += 1
- 	print("\n")
 except NameError:
 	print("Problem: Dəyişən və ya funksiya adı.")
 except ValueError:
