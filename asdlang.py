@@ -180,6 +180,8 @@ try:
 			if funkec:
 				if eval(globals()[cars[i][1:].strip()+"muq"]):
 					i = globals()[cars[i][1:].strip()+"setr"]
+		elif cars[i] == "dayan":
+			exit()
 		elif cars[i].startswith("əgər "):
 			if funkec:
 				if ifelseon:
@@ -241,6 +243,8 @@ try:
 								deymen = s67s.split(sep="=>", maxsplit=1)[0]
 								globals()[deymen.strip()+"muq"] = s67s.split(sep="=>", maxsplit=1)[1]
 								globals()[deymen.strip()+"setr"] = i
+							elif emrinolin[nqabin] == "dayan":
+								exit()
 							elif emrinolin[nqabin].startswith("}"):
 								if eval(globals()[emrinolin[nqabin][1:].strip()+"muq"]):
 									i = globals()[emrinolin[nqabin][1:].strip()+"setr"]
