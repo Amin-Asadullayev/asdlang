@@ -1,5 +1,5 @@
+# -*- coding: utf-8 -*-
 try:
-	# -*- coding: utf-8 -*-
 	import random as kop
 	import datetime as daat
 	import re
