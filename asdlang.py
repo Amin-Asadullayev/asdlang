@@ -1,5 +1,5 @@
-# -*- coding: utf-8 -*-
 try:
+	# -*- coding: utf-8 -*-
 	import random as kop
 	import datetime as daat
 	import re
@@ -170,6 +170,9 @@ try:
 			if funkec:
 				globals()[cars[i][6:]+"nov"] = i
 				i = globals()[cars[i][6:]]
+		elif cars[i].startswith("sil"):
+			if funkec:
+				os.system("cls")
 		elif cars[i].startswith("dövr "):
 			if funkec:
 				s67s = cars[i][5:].split(sep="{", maxsplit=1)[0]
